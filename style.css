@@ -1,0 +1,178 @@
+* {
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    float: right;
+    display: flex;
+}
+
+li {
+    margin: 0px 15px 0px 15px;
+    display: inline-block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchSection {
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logoImages {
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: -1.6rem;
+    padding: 0;
+}
+
+.imagesText {
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 21rem;
+}
+
+.logo > span, .logoImages > span {
+    margin: -1rem;
+}
+
+form {
+    text-align: center;
+}
+
+.search {
+    width: 30rem;
+    height: 2.5rem;
+    border-radius: 50px;
+    display: block;
+    margin-bottom: 1rem;
+    text-align: left;
+    padding-left: 25px;
+    border: 1px solid lightGray;
+}
+
+.searchButton, .luckyButton {
+    display: inline-block;
+    width: 25%;
+    border: none;
+    height: 2rem;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    border-radius: 3px;
+}
+
+.luckyButton:hover {
+    border: 1px solid gray;
+}
+
+.searchButton:hover {
+    border: 1px solid gray;
+}
+
+
+/* Advanced Search Styles */
+
+.logo-adv {
+    float: left;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5px 0 25px 20px;
+    margin-bottom: 25px;
+}
+
+.logo-adv > span {
+    margin: -0.3rem;
+    display: inline-block;
+}
+
+.advHeading {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem 4rem;
+    color: brown;
+}
+
+.advsearch {
+    width: 30rem;
+    height: 2rem;
+    margin: 0;
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+    border: 1px solid lightGray;
+}
+
+.advsearch[type=text]:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+.advsearchSection {
+    padding: 45px;
+}
+
+.advform {
+    display: flex;
+    flex-direction: column;
+}
+
+.advsearchButton {
+    margin-top: 1rem;
+    margin-left: 37rem;
+    width: 9rem;
+    height: 2.2rem;
+    color: white;
+    background-color: rgb(44, 139, 255);
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+}
+.advsearchButton:hover {
+    background-color: rgb(44, 120, 255);
+}
+.advsearchButton:active {
+    border: 3px solid white;
+}
+
+.lefttext {
+    float: left;
+    text-align: left;
+    width: 15rem;
+}
+
+.righttext {
+    font-size: 0.9rem;
+    text-align: left;
+    margin-left: 5px;
+    float: left;
+}
+
+.righttext > span {
+    color: gray;
+}

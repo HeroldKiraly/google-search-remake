@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/style.css">
+        <title>Search</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/index.html" style="text-decoration: none">
+                    <h1 class="logo-adv">
+                        <span style="color: Blue">G</span>
+                        <span style="color: Red">o</span>
+                        <span style="color: Orange">o</span>
+                        <span style="color: Blue">g</span>
+                        <span style="color: Green">l</span>
+                        <span style="color: Red">e</span>
+                    </h1>
+                </a>
+                <ul>
+                    <li>
+                        <a href="/image.html">Image Search</a>
+                    </li>
+                    <li>
+                        <a href="/index.html">Search</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <h1 class="advHeading">Advanced Search</h1>
+        <hr clas="advBreak"></hr>
+        <section class="advwrapper">
+            <div class="advsearchSection">
+                <form class="advform" action="https://google.com/search">
+                    <div>
+                        <p class="lefttext">Find pages with...</p>
+                        <input style="width: 28rem; visibility: hidden;"class="advsearch" type="text" name="q" autocomplete="off">
+                        <p class="righttext">To do this in the search box</p>
+                    </div>
+                    <div>
+                        <p class="lefttext">all these words:</p>
+                        <input class="advsearch" type="text" name="as_q" autocomplete="off">
+                        <p class="righttext">Type the important words: <span>tricolor rat terrier</span></p>
+                    </div>
+                    <div>
+                        <p class="lefttext">this exact word or phrase:</p>
+                        <input class="advsearch" type="text" name="as_epq" autocomplete="off">
+                        <p class="righttext">Put exact words in quotes: <span>"rat terrier"</span></p>
+                    </div>
+                    <div>
+                        <p class="lefttext">any of these words:</p>
+                        <input class="advsearch" type="text" name="as_oq" autocomplete="off">
+                        <p class="righttext">Type OR between all the words you want: <span>miniature OR standard</span></p>
+                    </div>
+                    <div>
+                        <p class="lefttext">none of these words:</p>
+                        <input class="advsearch" type="text" name="as_eq" autocomplete="off">
+                        <p class="righttext">Put a minus sign just before words you don't want: <span>-rodent, -"Jack Russel"</span></p>
+                    </div>
+                    <input class="advsearchButton" type="submit" value="Advanced Search">
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
